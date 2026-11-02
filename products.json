@@ -1,0 +1,116 @@
+[
+  {
+    "id": "egg-oats",
+    "name": "Egg Oats Power Meal",
+    "category": "Breakfast",
+    "price": 99,
+    "protein": "24g",
+    "calories": "360 kcal",
+    "time": "10 min",
+    "veg": false,
+    "desc": "A savoury breakfast kit with rolled oats, eggs, seeds and a balanced seasoning blend.",
+    "ingredients": [
+      "Rolled oats",
+      "2 eggs (packed separately)",
+      "Mixed seeds",
+      "Dried herbs & seasoning"
+    ],
+    "color": "sage",
+    "emoji": "\ud83e\udd63"
+  },
+  {
+    "id": "moong-chilla",
+    "name": "Moong Protein Chilla",
+    "category": "Breakfast",
+    "price": 89,
+    "protein": "22g",
+    "calories": "310 kcal",
+    "time": "10 min",
+    "veg": true,
+    "desc": "A simple Indian-style chilla kit with measured moong ingredients and a flavourful spice mix.",
+    "ingredients": [
+      "Moong dal flour",
+      "Seed mix",
+      "Dried herbs",
+      "Spice sachet"
+    ],
+    "color": "cream",
+    "emoji": "\ud83e\udd5e"
+  },
+  {
+    "id": "masala-oats",
+    "name": "Masala Protein Oats",
+    "category": "Quick Meals",
+    "price": 69,
+    "protein": "19g",
+    "calories": "295 kcal",
+    "time": "7 min",
+    "veg": true,
+    "desc": "Comforting masala oats with added plant protein ingredients and a bold Indian seasoning.",
+    "ingredients": [
+      "Rolled oats",
+      "Roasted chana powder",
+      "Dried vegetables",
+      "Masala sachet"
+    ],
+    "color": "yellow",
+    "emoji": "\ud83c\udf72"
+  },
+  {
+    "id": "paneer-bowl",
+    "name": "Paneer Power Bowl",
+    "category": "Lunch & Dinner",
+    "price": 149,
+    "protein": "28g",
+    "calories": "430 kcal",
+    "time": "10 min",
+    "veg": true,
+    "desc": "A satisfying bowl kit with grains, paneer and a balanced seasoning blend.",
+    "ingredients": [
+      "Rice or quinoa",
+      "Paneer (separate chilled pack)",
+      "Vegetable mix",
+      "Seasoning"
+    ],
+    "color": "sage",
+    "emoji": "\ud83e\udd57"
+  },
+  {
+    "id": "chicken-bowl",
+    "name": "Chicken Rice Power Bowl",
+    "category": "Lunch & Dinner",
+    "price": 179,
+    "protein": "34g",
+    "calories": "470 kcal",
+    "time": "15 min",
+    "veg": false,
+    "desc": "A protein-forward rice bowl kit with chicken, vegetables and a savoury spice mix.",
+    "ingredients": [
+      "Rice",
+      "Chicken (separate chilled pack)",
+      "Vegetable mix",
+      "Seasoning"
+    ],
+    "color": "dark",
+    "emoji": "\ud83c\udf5b"
+  },
+  {
+    "id": "overnight-oats",
+    "name": "Overnight Protein Oats",
+    "category": "Breakfast",
+    "price": 119,
+    "protein": "20g",
+    "calories": "330 kcal",
+    "time": "5 min prep",
+    "veg": true,
+    "desc": "A convenient oats kit with seeds and a creamy protein blend. Add milk or yoghurt as directed.",
+    "ingredients": [
+      "Rolled oats",
+      "Seed mix",
+      "Protein blend",
+      "Cinnamon sachet"
+    ],
+    "color": "cream",
+    "emoji": "\ud83e\udd5b"
+  }
+]
