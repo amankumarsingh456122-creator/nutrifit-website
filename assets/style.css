@@ -32,3 +32,34 @@
 }
 @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.categories{grid-template-columns:repeat(2,1fr)}.how-inner{grid-template-columns:1fr}.footer-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.header-inner{padding:13px 17px}.menu{display:block}.nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fffdf8;padding:18px 22px;flex-direction:column;border-top:1px solid var(--line)}.nav.open{display:flex}.head-actions{gap:10px;font-size:12px}.logo{font-size:23px}.hero{grid-template-columns:1fr;padding-top:42px;padding-bottom:35px;gap:10px}.hero h1{font-size:42px}.hero-art{min-height:330px}.hero-pack{transform:scale(.9) rotate(-4deg)}.hero-points{gap:10px}.categories{gap:8px}.category{padding:12px 9px;gap:8px}.category b{font-size:11px}.category small{font-size:10px}.section-head{align-items:start;flex-direction:column;gap:8px}.grid{gap:10px}.product-image{min-height:160px}.product-image .emoji{font-size:68px}.product-info{padding:12px}.product-info h3{font-size:14px}.product-info p{font-size:10px}.stats{gap:4px}.stats span{font-size:9px;padding:4px 6px}.product-bottom{align-items:flex-start;flex-direction:column}.small-btn{width:100%}.steps{grid-template-columns:1fr}.cta{margin:35px 16px;padding:28px 24px}.cta h2{font-size:30px}.cta-mark{font-size:60px}.detail{grid-template-columns:1fr;gap:22px}.detail-art{min-height:280px;font-size:110px}.detail-copy h1{font-size:30px}.page-head h1{font-size:35px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.cart-row{grid-template-columns:1fr auto;gap:8px}.cart-row .cart-controls{grid-column:1/-1}.footer-grid{gap:22px 14px}.footer-bottom{line-height:1.7}}
+
+
+/* NutriFit homepage hero image */
+.hero-art {
+    min-height: 380px;
+    background: none;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: 420px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 16px;
+}
+
+@media (max-width: 620px) {
+    .hero-art {
+        min-height: 330px;
+    }
+
+    .hero-image {
+        height: 320px;
+        max-width: 100%;
+    }
+}
